@@ -1,0 +1,20 @@
+{
+  "name": "typescript-experiment",
+  "version": "1.0.0",
+  "description": "The aim of this project is to demonstrate a simple front-end project with the use of typescript and other frameworks from the scratch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --loader ts-node/esm index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "ts-node",
+    "tsc"
+  ],
+  "author": "Levent Divilioglu",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
